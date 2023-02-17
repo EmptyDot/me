@@ -74,7 +74,7 @@ def write_repos_file():
 
 
 def create_page(filenames):
-    with open("page.md", "w") as outfile:
+    with open("README.md", "w") as outfile:
         for filename in filenames:
             with open(filename, "r") as infile:
                 for line in infile:
